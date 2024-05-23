@@ -9,9 +9,9 @@
 
 #include <stdio.h>
 
-#define DBLKSIZ 4096
-#define PBLKSIZ 1024
-#define PAIRMAX 1008			/* arbitrary on PBLKSIZ-N */
+#define DBLKSIZ 8192
+#define PBLKSIZ 4096
+#define PAIRMAX 4088			/* arbitrary on PBLKSIZ-N */
 #define SPLTMAX	10			/* maximum allowed splits */
 					/* for a single insertion */
 #define DIRFEXT	".dir"
